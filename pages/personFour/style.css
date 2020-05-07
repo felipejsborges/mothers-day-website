@@ -1,0 +1,111 @@
+/* general */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+	font-family: 'Playfair Display', sans-serif;
+	width: 100%;
+  height: 100%;
+}
+
+.contentDarker {
+	background-color: #f5a8a8;
+}
+
+.contentDark {
+	background-color: #f1d1d1;
+}
+
+.contentLight {
+	background-color: #f3e1e1;
+}
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+	grid-template-areas:
+		"navbar navbar"
+		"pic pic"
+		"txt txt"
+		"f f"
+}
+
+/* navbar */
+
+.navbarContent {
+	grid-area: navbar;
+	padding: 7px 5%;
+	justify-content: space-between;
+}
+
+.navbarHome {
+	padding: 0;
+	margin: 0;
+}
+
+.navbarItems {
+	padding: 0;
+	margin: 0;
+}
+
+/* pictures */
+
+#picCarousel {
+	grid-area: pic;
+	width: 100%;
+	margin: 0;
+	padding: 5%;
+	text-align: center;
+}
+
+.carouselImg {
+	margin: 5% 0;
+	width: 50%;
+}
+
+/* text  */
+
+.poemContainer{
+	grid-area: txt;
+	width: 100%;
+	padding: 5%;
+	font-size: 18px;
+	line-height: 1.5;
+	display: flex;
+	justify-content: center;
+}
+
+.poemContent {
+	width: 50%;
+}
+
+.poemContent h1 {
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+/* footer */
+
+.footer {
+	grid-area: f;
+	width: 100%;
+	padding: 2%;
+	display: block;
+	text-align: center;
+}
+
+.footerIcons {
+	/* padding: 1%; */
+	font-size: 1.5rem;
+}
+
+.footerIcons a {
+	color: #323232;
+	padding: 1%;
+}
+
+.footer p {
+	margin: 0;
+}

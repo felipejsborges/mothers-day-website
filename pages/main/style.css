@@ -1,0 +1,184 @@
+/* general */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+	font-family: 'Playfair Display', sans-serif;
+	width: 100%;
+  height: 100%;
+}
+
+.contentDarker {
+	background-color: #f5a8a8;
+}
+
+.contentDark {
+	background-color: #f1d1d1;
+}
+
+.contentLight {
+	background-color: #f3e1e1;
+}
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+	grid-template-areas:
+		"navbar navbar"
+		"intro intro"
+		"shortTxts shortTxts"
+		"c c"
+		"f f"
+}
+
+/* navbar */
+.navbarContent {
+	grid-area: navbar;
+	padding: 7px 5%;
+	justify-content: space-between;
+}
+
+.navbarHome {
+	padding: 0;
+	margin: 0;
+}
+
+.navbarItems {
+	padding: 0;
+	margin: 0;
+}
+
+/* intro */
+.introContainer {
+	grid-area: intro;
+	width: 100%;
+	margin: 0;
+	padding: 5%;
+}
+
+.introTextContent {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+.introImgContent {
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+.introImg {
+	width: 60%;
+	transform: rotate(10deg);
+	margin-right: 7%;
+	position: absolute;
+	right: 0;
+}
+
+@media (max-width: 990px) {
+	.introContainer {
+		text-align: center;
+	}
+
+	.introImgContent {
+		text-align: center;
+	}
+
+	.introImg {
+		width: 43%;
+		transform: rotate(0deg);
+		position: static;
+		margin: 0 auto;
+	}
+}
+
+/* short messages  */
+.shortMessagesContent {
+	grid-area: shortTxts;
+	padding: 2% 5%;
+}
+
+.shortMessagesItem {
+	display: grid;
+	text-align: center;
+	margin: 3% 0;
+}
+
+.shortMessagesItem p {
+  margin-top: 3%;
+  font-size: 18px;
+}
+
+/* conclusion */
+.conclusionContent {
+	grid-area: c;
+	width: 100%;
+	padding: 5%;
+	margin: 0;
+}
+
+.conclusionTextContent {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+.conclusionImgContent {
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.conclusionImg {
+	width: 60%;
+  transform: rotate(-10deg);
+  position: relative;
+	left: 0;
+}
+
+@media (max-width: 990px) {
+	.conclusionContainer {
+		text-align: center;
+	}
+
+	.conclusionImgContent {
+		text-align: center;
+	}
+
+	.conclusionImg {
+		width: 43%;
+		transform: rotate(0deg);
+		position: static;
+		margin: 0 auto 16px;
+	}
+}
+
+/* footer */
+.footer {
+	grid-area: f;
+	width: 100%;
+	padding: 2%;
+	display: block;
+	text-align: center;
+}
+
+.footerIcons {
+	/* padding: 1%; */
+	font-size: 1.5rem;
+}
+
+.footerIcons a {
+	color: #323232;
+	padding: 1%;
+}
+
+.footer p {
+	margin: 0;
+}
