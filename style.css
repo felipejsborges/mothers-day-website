@@ -178,7 +178,7 @@ html, body {
 
 	.introContainer {
     text-align: center;
-    padding-top: 10%;
+    padding-top: calc(54px + 5%);
     width: 100%;
 	}
 
@@ -190,7 +190,25 @@ html, body {
 		width: 43%;
 		transform: rotate(0deg);
 		position: static;
-		margin: 0 auto;
+    margin: 0 auto;
+  }
+
+  .carousel-content {
+    height: 50vh;
+    position: relative;
+  }
+
+  .carouselImg {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
 
   .conclusionContainer {
