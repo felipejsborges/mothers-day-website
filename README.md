@@ -1,5 +1,5 @@
 <div align="center">
-	<a href="web-site-link" target="_blank">
+	<a href="https://felipejsborges.github.io/mothers_day_website/" target="_blank">
 		<img src="/assets/introImg.jpg" alt="IntroImage" width="50%"/>
 	</a>
 </div>
