@@ -1,6 +1,6 @@
 <div align="center">
 	<a href="web-site-link" target="_blank">
-		<img src="/assets/introImg.jpg" alt="IntroImage" style="width:200px"/>
+		<img src="/assets/introImg.jpg" alt="IntroImage" width="200"/>
 	</a>
 </div>
 
