@@ -30,5 +30,5 @@ Yes! Just click here to see it on GitHub pages.
 by Felipe Borges<br>
 [LinkedIn](https://www.linkedin.com/in/felipejsborges) | [GitHub](https://github.com/felipejsborges)
 <br>
-and Fabiane Borges
+and Fabiane Borges<br>
 [Instagram](https://www.instagram.com/afetoliteral/)
