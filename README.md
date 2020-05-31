@@ -24,7 +24,7 @@ Yes! Just [click here](https://felipejsborges.github.io/mothers_day_website/) to
 
 ### How can I use it? ⑃
 - Use as a template and modify whatever you wish and give it a gift to your mother.
-- Fork it, make changes, send a pull request. My mother and wife will be so thankful to a more beautiful website for next year 🤣
+- Fork it, make changes, send a pull request. My mother and wife will be so thankful to an even more beautiful website for next year 🤣
 <hr>
 
 by Felipe Borges<br>
