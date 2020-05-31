@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-	<h1>A Mother's day tribute website 💜</h1>
+	<h1>A Mother's day homage website 💜</h1>
 </div>
 
 ### What is? 🤔
